@@ -1,0 +1,48 @@
+/* src/components/EditorDashboard.css */
+
+.editor-dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.editor-dashboard h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.editor-dashboard form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+}
+
+.editor-dashboard textarea {
+  resize: vertical;
+  padding: 10px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.editor-dashboard button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.editor-dashboard button:hover {
+  background-color: #0056b3;
+}
+
+.editor-dashboard p {
+  margin-top: 10px;
+  color: green;
+}
